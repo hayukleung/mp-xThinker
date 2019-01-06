@@ -1,84 +1,66 @@
-// pages/attr/list/list.js
+// pages/attr/condition/condition.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    items: [{
-        "name": "数据001"
-      },
-      {
-        "name": "数据002"
-      },
-      {
-        "name": "数据003"
-      },
-      {
-        "name": "数据004"
-      },
-      {
-        "name": "数据005"
-      },
-      {
-        "name": "数据006"
-      }
-    ]
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function(options) {
+  onLoad: function (options) {
 
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function() {
+  onReady: function () {
 
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function() {
+  onShow: function () {
 
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
-  onHide: function() {
+  onHide: function () {
 
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload: function() {
+  onUnload: function () {
 
   },
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
    */
-  onPullDownRefresh: function() {
+  onPullDownRefresh: function () {
 
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
-  onReachBottom: function() {
+  onReachBottom: function () {
 
   },
 
   /**
    * 用户点击右上角分享
    */
-  onShareAppMessage: function() {
+  onShareAppMessage: function () {
 
   }
 })

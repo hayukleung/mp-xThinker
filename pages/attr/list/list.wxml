@@ -1,2 +1,7 @@
 <!--pages/attr/list/list.wxml-->
 <view>列表渲染</view>
+<view>
+  <block wx:for="{{items}}" wx:for-item="item" wx:key="index">
+    <view>{{index}}:{{item.name}}</view>
+  </block>
+</view>

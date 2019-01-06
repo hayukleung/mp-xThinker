@@ -1,8 +1,9 @@
 {
   "pages": [
     "pages/attr/attr",
-    "pages/attr/list/list",
     "pages/attr/databinding/databinding",
+    "pages/attr/list/list",
+    "pages/attr/condition/condition",
     "pages/logs/logs",
     "pages/index/index"
   ],
