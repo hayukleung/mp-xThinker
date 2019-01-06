@@ -1,0 +1,2 @@
+<!--pages/attr/databinding/databinding.wxml-->
+<text>{{title}}</text>

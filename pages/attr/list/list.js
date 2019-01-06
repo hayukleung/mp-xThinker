@@ -1,4 +1,4 @@
-// logs/logs.js
+// pages/attr/list/list.js
 Page({
 
   /**

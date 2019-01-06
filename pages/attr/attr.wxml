@@ -1,0 +1,5 @@
+<!--pages/attr/attr.wxml-->
+<view>WXML 四大特性</view>
+<view>数据绑定</view>
+<view>列表渲染</view>
+<view></view>

@@ -11,7 +11,7 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.0.4",
+	"libVersion": "2.4.3",
 	"appid": "wxd3c1398646741cfe",
 	"projectname": "xThinkerApp",
 	"isGameTourist": false,
@@ -24,13 +24,36 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "attr",
+					"pathName": "pages/attr/attr",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "attr-databinding",
+					"pathName": "pages/attr/databinding/databinding",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "attr-list",
+					"pathName": "pages/attr/list/list",
+					"query": ""
+				}
+			]
 		}
 	}
 }
