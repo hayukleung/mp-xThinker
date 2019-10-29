@@ -1,4 +1,4 @@
-// index/index.js
+// logs/logs.js
 Page({
 
   /**

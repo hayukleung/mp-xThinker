@@ -1,15 +1,47 @@
 {
   "pages": [
-    "pages/attr/attr",
-    "pages/attr/list/list",
-    "pages/attr/databinding/databinding",
-    "pages/logs/logs",
-    "pages/index/index"
+    "pages/home/home",
+    "pages/contacts/contacts",
+    "pages/schedule/schedule",
+    "pages/me/me"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ffffff",
-    "navigationBarTitleText": "xThinker",
-    "navigationBarTextStyle": "black"
-  }
+    "navigationBarBackgroundColor": "#467dff",
+    "navigationBarTitleText": "南网商旅通",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#9b9a9a",
+    "selectedColor": "#467dff",
+    "borderStyle": "white",
+    "backgroundColor": "#f2f2f2",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "image/image_tab_home_off.png",
+        "selectedIconPath": "image/image_tab_home_on.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/contacts/contacts",
+        "iconPath": "image/image_tab_contacts_off.png",
+        "selectedIconPath": "image/image_tab_contacts_on.png",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/schedule/schedule",
+        "iconPath": "image/image_tab_schedule_off.png",
+        "selectedIconPath": "image/image_tab_schedule_on.png",
+        "text": "日程"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "image/image_tab_me_off.png",
+        "selectedIconPath": "image/image_tab_me_on.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }
